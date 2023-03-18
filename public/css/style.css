@@ -1,0 +1,47 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  /* Style the navigation list items */
+  nav li {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+  }
+  
+  /* Style the navigation links */
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Add hover effect to the navigation links */
+  nav a:hover {
+    color: #0076d6;
+  }
+
+  /* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the table rows */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
