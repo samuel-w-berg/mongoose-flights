@@ -1,6 +1,12 @@
 const mongoose = require('mongoose')
 
-
+const destinationSchema = new mongoose.Schema({
+    airport: {
+        type: String,
+        enum: ['ATL', 'DFW', 'DEN', 'LAX', 'SAN']
+    },
+    arrival: Date
+})
 
 // Schema is a guard on our collection that says
 // everytime we want to add a document (object) to our collection 
@@ -22,7 +28,8 @@ const flightSchema = new mongoose.Schema({
     },
 	departs: {
         type: Date,
-    }
+    },
+    destinations: [destinationSchema]
 }, {
     timestamps: true
 })
