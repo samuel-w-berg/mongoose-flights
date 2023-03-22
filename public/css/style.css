@@ -45,3 +45,59 @@ td {
   padding: 8px;
   border-bottom: 1px solid #ddd;
 }
+
+/* General form styles */
+form {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Label styles */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Select and input styles */
+select,
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #0077cc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+
+.section-label {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
